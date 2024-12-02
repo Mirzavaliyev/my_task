@@ -63,5 +63,35 @@
 # while 'pastrami' in senediwiches:
 #     senediwiches.remove('pastrami')
 # print(senediwiches)
+# dream_place = {}
+# pollinge_active = True
+# while pollinge_active:
+#     name = input("Enter your name: ")
+#     dream_place1 = input("Enter dream place: ")
+#     dream_place[name] = dream_place1
+#     repeat = input("If you want to stop write No")
+#     if repeat == "No":
+#         pollinge_active = False
+#     print(f"{name} your favourite dream place is {dream_place}")
+# number = int(input("Enter a number: "))
+# pollinge_active = True
+# while number:
+#     repeat = input('If you enter exit progrmme stops')
+#     numbers = number**2
+#     if repeat == 'exit':
+#         pollinge_active = False
+#
+#     print(f"siz yozgan sonni kvadrati {numbers}")
+number = int(input("Enter a number: "))
+pollinge_active = True
+while pollinge_active:
+    if number > 0:
+        repeat = "If you want to stop program write exit"
+        if number == 'exit':
+            pollinge_active = False
+            number1 = number**0.5
+            print('Sizning javobingiz')
+            print(number1)
+
 
 
