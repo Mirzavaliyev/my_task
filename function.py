@@ -51,7 +51,33 @@
 # print('Mijozlar')
 # for mijoz in mijozlar:
 #     print(f"{mijoz['ism']} {mijoz['familya']} {mijoz['phone']}  {mijoz['email']} {mijoz['city']} {mijoz['age']}")
-#
+def books(name,author,year,janr,cost=""):
+    book = {
+        'name':name,
+        'author':author,
+        'year':year,
+        'janr':janr,
+        'cost':cost
+    }
+    return book
+book_list = []
+while True:
+    name = input('Book name ')
+    author = input('Books author ')
+    year = input('Books year ')
+    janr = input('Books genre ')
+    cost = input('Books cost ')
+    book_list.append(books(name,author,year,janr,cost))
+    exit = input('Input Exit if you want to quit')
+    if exit == 'Exit':
+        break
+print('About book')
+for bookg in book_list:
+
+    print(f"Books name {bookg['name']} \n Books author {bookg['author']} \n Books year {bookg['year']} \n Books genre {bookg['janr']} \n Books cost{bookg['cost']}")
+
+
+
 
 
 
