@@ -86,7 +86,37 @@
 #     else:
 #         print(f"The biggest number is {number3}")
 #
-# number()
+# # number()
+# import math
+#
+# def aylana_hisobla(radius):
+#     """Aylananing radiusi, diametri, perimetri va yuzini lug'at ko'rinishida qaytaradi."""
+#     aylana_info = {
+#         'radius': radius,
+#         'diametr': 2 * radius,
+#         'perimetr': 2 * math.pi * radius,
+#         'yuzasi': math.pi * (radius ** 2)
+#     }
+#     return aylana_info
+#
+# # Foydalanuvchidan radiusni kiritishni so'rash
+# radius = float(input("Aylananing radiusini kiriting: "))
+# natija = aylana_hisobla(radius)
+#
+# # Natijalarni chop etish
+# print("\nAylana haqida ma'lumot:")
+# for kalit, qiymat in natija.items():
+#     print(f"{kalit.title()}: {qiymat:.2f}")
+# def teskari_tartib(harflar):
+#     for i in range(len(harflar)):
+#         harflar[i] = harflar[i][::-1]
+#     return harflar
+# harf = ["hello", "world", "python"]
+# harf1 = teskari_tartib(harf)
+# print(harf1)
+
+
+
 
 
 
