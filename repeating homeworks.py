@@ -12,3 +12,9 @@
 # z_shaxslar = ['Imron', 'Javohir', 'Qizlarxon']
 # print(f"Tarixiy odam {t_shaxslar.pop(0)}")
 # print(f"Zamonaviy odam {z_shaxslar.pop(1)}")
+
+# friends = []
+# friends.append('Shaxzamon')
+# friends.append(8)
+# friends.remove('Shaxzamon')
+# print(friends)
