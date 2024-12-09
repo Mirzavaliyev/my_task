@@ -114,6 +114,26 @@
 # harf = ["hello", "world", "python"]
 # harf1 = teskari_tartib(harf)
 # print(harf1)
+# def sonlar(*args):
+#     kopaytma = 1
+#     for i in args:
+#         kopaytma *= i
+#     return kopaytma
+# print(sonlar(9,3,2,2,2,2,2,4))
+# from multiprocessing.connection import address_type
+
+#
+# def talabalar(name,surname,phone,**others):
+#     others['name']=name
+#     others['surname']=surname
+#     return others
+#
+# talaba = talabalar('Olim', 'Haydarov', '934054500', tyil=1998, tkun=2)
+# print(talaba)
+
+
+
+
 
 
 
