@@ -53,4 +53,56 @@
 # for i in range(5):
 #     empty.append(input(f"{i+1} sevimli filimingizni kiriting"))
 #     print(empty)
-
+# cars = ['toyota', 'mazda', 'hyundai', 'gm', 'kia']
+# for i in cars:
+#     if i != 'gm':
+#         print(i.title())
+#     else:
+# #         print(i.upper())
+# foydalanuvchi = input('Ismingizni kiriting')
+# if foydalanuvchi == 'Admin':
+#     print(f"Salom Admin foydlanuvchilar ro\'yxatini ko\'rasizmi?")
+# else:
+#     print(f"Salom {foydalanuvchi}")
+# lugat = {'int':'Butun son','float':'onlik son','input':'kirgazish','if':'Shart'}
+# print(lugat)
+# lugat = {'hello':'salom','morning':'ertalab','evening':'kechqurun','laptop':'notebuk','screen':'ekran'}
+# royhat = input('So\'z kiriting ')
+# if royhat in lugat:
+#     print(f"{royhat} tarjimasi {lugat[royhat]}")
+# else:
+#     print(f"Bu so\'zni hali kiritmadik uzur")
+# lugat = {'hello':'salom','morning':'ertalab','evening':'kechqurun','laptop':'notebuk','screen':'ekran'}
+# for kalit, qiymat in lugat.items():
+#     print(f"kalit {kalit} ")
+#     print(f'qiymat {qiymat}')
+#
+# mahsulotlar = { # Do'kondagi mahsulotlar
+#     'olma':10000,
+#     'anor':20000,
+#     'uzum':40000,
+#     'anjir':25000,
+#     'shaftoli':30000
+#     }
+# # bozorlik = input('Kerakli mahsulotni yozing')
+# # if bozorlik in mahsulotlar:
+# #     print(f"Mahsulot bor ekan olindi")
+# # else:
+# #     print(f"Bu mahsulot yo\'q edi uzur")
+# for mahsulot in sorted(mahsulotlar):
+#     print(f"{mahsulot.title()}")
+# shaxs0 = {'ism':'Alisher', 't_yil':'1936', 'ishi':'Shoir bo\'lgan'}
+# shaxs1 = {'ism':'abror', 't_yil':'1970', 'ishi':'Diniy yetakchi'}
+# shaxs2 = {'ism':'munisa', 't_yil':'1990', 'ishi':'Qo\'shiqchi'}
+# shaxs3 = {'ism':'jahongir', 't_yil':'1992', 'ishi':'Biznesmen o\'quv markaz sohsida'}
+# shaxslar = [shaxs0, shaxs1, shaxs2, shaxs3]
+# for i in shaxslar:
+#     print(f"{i['ism'].title()} {i['t_yil']} da tug\'ilgan va uning kasbi {i['ishi']} ")
+#
+# shaxs0 = {'ism':'Alisher', 't_yil':'1936', 'ishi':'Shoir bo\'lgan','asar':'hamza'}
+# shaxs1 = {'ism':'abror', 't_yil':'1970', 'ishi':'Diniy yetakchi', 'asar':'hech narsa'}
+# shaxs2 = {'ism':'munisa', 't_yil':'1990', 'ishi':'Qo\'shiqchi', 'asar':'yomg\'ir'}
+# shaxs3 = {'ism':'jahongir', 't_yil':'1992', 'ishi':'Biznesmen o\'quv markaz sohsida', 'asar':'cambridge'}
+# shaxslar = [shaxs0, shaxs1, shaxs2, shaxs3]
+# for shaxs in shaxslar:
+#     print(f"{shaxs['ism'].title()} {shaxs['asar'].upper()} ni yozgan")
