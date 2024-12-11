@@ -106,3 +106,24 @@
 # shaxslar = [shaxs0, shaxs1, shaxs2, shaxs3]
 # for shaxs in shaxslar:
 #     print(f"{shaxs['ism'].title()} {shaxs['asar'].upper()} ni yozgan")
+# x = 0
+# while x < 8:
+#     print(x)
+#     x += 1
+# son = "Istalgan sonni kiriting"
+# son += " men uning 3-darajasini qaytaraman "
+# qiymat = ''
+# while qiymat != 'exit':
+#     qiymat = input(son)
+#     if qiymat != 'exit':
+#         print(f"{int(qiymat)} ning 3-darajasi {int(qiymat)**3}")
+# son = 'Biror son kiriting '
+# flag = True
+# while flag:
+#     qiymat = input(son)
+#     if qiymat == 'exit':
+#         flag = False
+#     elif not qiymat.isdigit():
+#         print("Faqat son kiriting")
+#     else:
+#         print(f'{int(qiymat)} ning kvadrati {int(qiymat)**2}')
