@@ -127,3 +127,166 @@
 #         print("Faqat son kiriting")
 #     else:
 #         print(f'{int(qiymat)} ning kvadrati {int(qiymat)**2}')
+
+# flag = True
+# while flag:
+#     kitob = input("Yaxshi korgan kitoblaringizni kiriting ")
+#     if flag == 'stop':
+#         break
+#     print(f"Sizning yaxshi korgan kitobingiz {kitob}")
+
+# flag = True
+# while flag:
+#     gap = "Yoshingizni kiriting "
+#     yosh = input(gap)
+#     if yosh == 'exit' or yosh == 'quit':
+#         break
+#     yosh = int(yosh)
+#     if yosh <= 7:
+#         print('Siz uchun bilet 2000')
+#     elif yosh > 7 and yosh <= 18:
+#         print('Siz uchun bilet 5000')
+#     elif yosh > 18 and yosh <= 65:
+#         print('Siz uchun bilet narxi 10000')
+#     else:
+#         print('Siz uchun bilet bepul')
+# gap = "Mahsulot nomini yozing "
+# while True:
+#     bosh = []
+#     stop = 'stop'
+#     buyurtma = input(gap)
+#     if stop == buyurtma:
+#         print("Siz jarayonni to'xtatdingiz")
+#         break
+#     else:
+#         bosh.append(buyurtma)
+#     for i in bosh:
+#         print(f"{i}")
+# gap = "Maxsulot nomi "
+# while True:
+#     stop = "stop"
+#     bosh = {}
+#     maxsulot = input(gap)
+#     narx = input('Narx yozing ')
+#     if stop == maxsulot:
+#         print('siz jarayonni toxtatdingiz')
+#         break
+#     else:
+#         bosh[maxsulot] = 'narx'
+#     print(bosh)
+# def t_yil(ism, yosh):
+#     """Bu tug'ilgan yilni hisoblovchi dastur"""
+#     print(f"Salom {ism} {2024-yosh}")
+# t_yil('Shavkatjon', 1336)
+# def kv_kub(son):
+#     '''Bu funksiya sonni 2 va 3 - darajalarini qaytaradi'''
+#
+#     print(f"{son} ning kvadrat {son**2} kubi {son**3}")
+# son1 = int(input('Son kiriting '))
+# # kv_kub(son1)
+# def toq_juft(son):
+#     if son % 2 == 0:
+#         print('Bu son juft')
+#     else:
+#         print('Bu son toq')
+# son1 = int(input('Son kiriting '))
+# toq_juft(son1)
+# def lugat_yasa(ism, familya, t_yil, phone=''):
+#     lugat = {
+#         'ism':ism,
+#         'familya':familya,
+#         't_yil':t_yil,
+#         'phone':phone
+#     }
+#     print(lugat)
+# lugat_yasa('Shavkatjon', 'Mirzavaliyev', '19980', '945034500')
+# lugat_yasa('Shavkatjon', 'Mirzavaliyev', '19980')
+# from datetime import datetime
+#
+#
+# def get_user_info(name, surname, birth_year, birth_place, email=None, phone=None):
+#     """
+#     Foydalanuvchidan ma'lumotlarni qabul qilib, lug'at qaytaradi.
+#     """
+#     current_year = datetime.now().year
+#     age = current_year - birth_year
+#
+#     return {
+#         "name": name,
+#         "surname": surname,
+#         "birth_year": birth_year,
+#         "birth_place": birth_place,
+#         "email": email,
+#         "phone": phone,
+#         "age": age
+#     }
+#
+#
+# clients = []  # Mijozlar ro'yxati
+#
+# while True:
+#     print("\nYangi foydalanuvchi ma'lumotlarini kiriting (to'xtash uchun 'exit' deb yozing):")
+#     name = input("Ismi: ")
+#     if name.lower() == 'exit':
+#         break
+#
+#     surname = input("Familiyasi: ")
+#     birth_year = int(input("Tug'ilgan yili (masalan, 1990): "))
+#     birth_place = input("Tug'ilgan joyi: ")
+#     email = input("Email manzili (ixtiyoriy): ") or None
+#     phone = input("Telefon raqami (ixtiyoriy): ") or None
+#
+#     user_info = get_user_info(name, surname, birth_year, birth_place, email, phone)
+#     clients.append(user_info)
+#
+# print("\nMijozlar ro'yxati:")
+# for idx, client in enumerate(clients, start=1):
+#     print(f"\nMijoz {idx}:")
+#     for key, value in client.items():
+#         print(f"{key.capitalize()}: {value}")
+#
+# def pul_ber(ismlar):
+#     lugat = {}
+#     while ismlar:
+#         ism = ismlar.pop()
+#         pul = input(f'{ism}ga qancha pul berasiz ')
+#         lugat['ism'] = pul
+#     return lugat
+# talabalar = ['Ali', 'Vali', 'Shaxnoz', 'Hasan']
+# lugat = pul_ber(talabalar)
+# print(lugat)
+#
+# def make_title(words):
+#     empty_list = []
+#     while True:
+#         empty_list.append(words)
+#     return empty_list
+# words = input('Soz kiriting ')
+# print(words)
+# import math as m
+# x = 36
+# sqrt = m.sqrt(x)
+# print(f"{x} ning kvadrat ildizi {int(sqrt)}")
+# import math
+# angle = math.radians(180)
+# sin_angle = math.sin(angle)
+# cos_angle = math.cos(angle)
+# tan_angle = math.tan(angle)
+# print(f"Sinus 30 gradusda {sin_angle} \n Cosinus 30 gradusda {cos_angle} \n Tangens 30 gradusda {tan_angle}")
+# import math
+# x = 3
+# uzunlik = math.pi*2*x
+# yuzi = 2*math.pi*x**2
+# print(uzunlik, yuzi)
+from datetime import datetime
+
+# Hozirgi vaqtni formatlash
+current_time = datetime.now()
+formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
+print(f"Formatlangan vaqt: {formatted_time}")
+
+
+
+
+
+
