@@ -10,3 +10,5 @@
 # def multiply(x, y):
 #     xy = x*y
 #     print(xy)
+import game_finding_number
+play()
