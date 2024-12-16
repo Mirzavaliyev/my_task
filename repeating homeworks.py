@@ -278,12 +278,22 @@
 # uzunlik = math.pi*2*x
 # yuzi = 2*math.pi*x**2
 # print(uzunlik, yuzi)
-from datetime import datetime
+# from datetime import datetime
+#
+# # Hozirgi vaqtni formatlash
+# current_time = datetime.now()
+# formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
+# print(f"Formatlangan vaqt: {formatted_time}")
+# import calculyator
+# x = int(input('1-son '))
+# y = int(input('2-son '))
+# calculyator.qoshish(x, y)
+# import calculyator
+# x = int(input('1-son '))
+# y = int(input('2-son'))
+# calculyator.multiply(x, y)
 
-# Hozirgi vaqtni formatlash
-current_time = datetime.now()
-formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
-print(f"Formatlangan vaqt: {formatted_time}")
+
 
 
 
